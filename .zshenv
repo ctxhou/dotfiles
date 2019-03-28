@@ -16,6 +16,11 @@ if [[ $OSTYPE == *darwin* ]]; then
         [[ "$XTRACE" == "verbose" ]] && printf "\nAdding $N_PREFIX/bin to path ..."
         path=("$N_PREFIX/bin" $path)
     fi
+
+    if [[ -d "/usr/local/sbin" ]]; then
+	[[ "$XTRACE" == "verbose" ]] && printf "\nAdding /usr/local/sbin to path ..."
+        path=("/usr/local/sbin" $path)
+    fi
 fi
 
 if [[ $OSTYPE == *linux* ]]; then

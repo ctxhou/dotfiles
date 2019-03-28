@@ -9,7 +9,10 @@
 [core]
     # https://github.com/so-fancy/diff-so-fancy
     pager = diff-so-fancy | less --tabs=4 --quit-if-one-screen --RAW-CONTROL-CHARS --no-init
-	excludesfile = ~/.gitignore
+    excludesfile = ~/.gitignore
+
+[status]
+    showuntrackedfiles = all
 
 [color "diff-highlight"]
     oldNormal = red bold
@@ -26,4 +29,4 @@
     whitespace = red reverse
 
 [diff-so-fancy]
-	stripLeadingSymbols = true
+    stripLeadingSymbols = true
