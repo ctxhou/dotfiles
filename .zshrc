@@ -60,6 +60,12 @@ fi
 alias gs="gsb"
 alias gds="gdca"
 alias gg="git grep --ignore-case --line-number"
+alias gpm="git push origin master"
+alias gph="git push origin HEAD"
+alias gphf="git push origin HEAD --force-with-lease"
+alias diff-so-fancy="$HOME/.npm-prefix/lib/node_modules/diff-so-fancy/diff-so-fancy"
+alias fx="$HOME/.npm-prefix/lib/node_modules/fx/index.js"
+
 if type tig > /dev/null; then
         alias gl="tig --all"
     else
