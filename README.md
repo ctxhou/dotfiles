@@ -9,7 +9,7 @@ dotfiles
 1. Clone this repository somewhere in your home directory...
 
     ```
-    git clone https://github.com/rishabhsrao/dotfiles.git $HOME/dotfiles
+    git clone https://github.com/ctxhou/dotfiles.git $HOME/dotfiles
     ```
 
 2. Symbolically link the required files into your home directory. For example...
